@@ -9,7 +9,7 @@
 </head>
 <body>
     <div class="container">
-        <div class="start-screen">
+        <div class="start-screen hide">
             <h1 class="heading">Quiz App</h1>
             <div class="settings">
                 <label for="num-question">Number of Questions</label>
@@ -61,6 +61,47 @@
                     <option value="30">30 seconds</option>
                     <option value="60">60 seconds</option>
                     </select>
+            </div>
+            <button class="btn start">Start quiz</button>
+        </div>
+        <div class="quiz">
+            <div class="timer">
+                <div class="progress">
+                    <div class="progress-bar">
+
+                    </div>
+                    <span class="progress-text">50</span>
+                </div>
+            </div>
+            <div class="question-wrapper">
+                <div class="number">
+                    Question <span class="current">1</span>
+                    <span class="total">/10</span>
+                </div>
+                <div class="question">This is a Question</div>
+                <div class="answer-wrapper">
+                    <div class="answer selected">
+                        <span class="text">answer</span>
+                        <span class="checkbox">
+                            <span class="icon"></span>
+                        </span>                     
+                    </div>
+
+                    <div class="answer selected">
+                        <span class="text">answer</span>
+                        <span class="checkbox">
+                            <span class="icon"></span>
+                        </span>                     
+                    </div>
+
+                    <div class="answer selected">
+                        <span class="text">answer</span>
+                        <span class="checkbox">
+                            <span class="icon"></span>
+                        </span>                     
+                    </div>
+                </div>
+
             </div>
         </div>
     </div>
